@@ -1,0 +1,227 @@
+[
+	{ "title": "¿Qué es Java?", "url": "/dictionary/que-es-java", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los tipos de datos primitivos?", "url": "/dictionary/datos-primitivos", "level": "Principiante" },
+	
+	{ "title": "¿Qué es una plabra clave/reservada o keyword?", "url": "/dictionary/keyword", "level": "Principiante" },
+
+	{ "title": "¿Cómo imprimir texto en Java?", "url": "/dictionary/imprimir-texto", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los caracteres de escape en Java?", "url": "/dictionary/caracteres-escape", "level": "Principiante" },
+
+	{ "title": "¿Qué es la clase Scanner o ingresar texto en Java?", "url": "/dictionary/ingresar-texto", "level": "Principiante" },
+
+	{ "title": "¿Qué son las variables y constantes?", "url": "/dictionary/variables-constantes", "level": "Principiante" },
+
+	{ "title": "¿Qué es castear (casting)?", "url": "/dictionary/casting", "level": "Principiante" },
+
+	{ "title": "Comentarios y ¿con que se comen?", "url": "/dictionary/comentarios", "level": "Principiante" },
+
+	{ "title": "¿Qué son los operadores aritméticos, lógicos y de comparación?", "url": "/dictionary/arit-logic-comp", "level": "Principiante" },
+
+	{ "title": "¿Qué es una estructura de control?", "url": "/dictionary/estructura-control", "level": "Principiante" },
+
+	{ "title": "¿Qué es la estructura de control if, else if y else?", "url": "/dictionary/if-else_if-else", "level": "Principiante" },
+	
+	{ "title": "¿Qué es el operador ternario?", "url": "/dictionary/ternario", "level": "Principiante" },
+
+	{ "title": "¿Qué es anidar código?", "url": "/dictionary/anidar", "level": "Principiante" },
+
+	{ "title": "¿Qué es la estructura de control switch?", "url": "/dictionary/switch", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los métodos en Java?", "url": "/dictionary/metodos-nivel_1", "level": "Principiante" },
+
+	{ "title": "¿Qué son los arreglos (arrays) en Java?", "url": "/dictionary/arreglos", "level": "Principiante" },
+
+	{ "title": "Arreglos (arrays) unidimensionales y multidimensionales", "url": "/dictionary/arreglos-uni-multi", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle for?", "url": "/dictionary/bucle-for", "level": "Principiante" },
+	
+	{ "title": "¿Qué es el bucle for-each?", "url": "/dictionary/bucle-for-each", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle while?", "url": "/dictionary/bucle-while", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle infinito (precausión)?", "url": "/dictionary/bucle-infinito", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle do-While?", "url": "/dictionary/bucle-do-while", "level": "Principiante" },
+
+	{ "title": "¿Qué es la resursión (recursividad)?", "url": "/dictionary/recursion", "level": "Principiante" },
+
+	{ "title": "¿Qué es una clase en Java?", "url": "/dictionary/que-es-una-clase", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los \"getters\" y \"setters\" Java?", "url": "/dictionary/getter-setter", "level": "Principiante" },
+
+	{ "title": "¿Qué es la librería \"Math\" en Java?", "url": "/dictionary/libreria-math", "level": "Principiante" },
+
+	{ "title": "¿Qué la palabra clave \"static\" en Java?", "url": "/dictionary/static", "level": "Principiante" },
+
+	{ "title": "¿Qué la palabra clave \"final\" en Java?", "url": "/dictionary/final", "level": "Principiante" },
+
+	{ "title": "¿Qué es la clase Enum Java?", "url": "/dictionary/enum", "level": "Principiante" },
+	
+	
+	
+	{ "title": "¿Cómo organizar el código (tratando de seguir un orden)?", "url": "/dictionary/organizar-codigo", "level": "Intermedio" },
+	
+	{ "title": "¿Qué son los tipos de datos NO primitivos?", "url": "/dictionary/no-primitivos", "level": "Intermedio" },
+	{ "title": "¿Cuáles la diferencia entre \"==\" e \".equals()\"?", "url": "/dictionary/doble-igual-equals", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la sobrecarga de métodos?", "url": "/dictionary/sobrecarga-metodos", "level": "Intermedio" },
+
+	{ "title": "Métodos en Java nivel 2", "url": "/dictionary/metodos-nivel_2", "level": "Intermedio" },
+
+	{ "title": "¿Qué es un apuntador o palabra clave \"this\"?", "url": "/dictionary/this", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la programación modular?", "url": "/dictionary/programacion-modular", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es POO u OOP?", "url": "/dictionary/poo-oop", "level": "Intermedio" },
+	
+	{ "title": "¿Cuál es la diferencial entre clases y objetos?", "url": "/dictionary/clases-objetos", "level": "Intermedio" },
+	
+	
+	{ "title": "¿Qué es el scope/alcance?", "url": "/dictionary/scope", "level": "Intermedio" },
+	
+	{ "title": "Diferencia entre el \"heap\" y el \"stack\" en Java", "url": "/dictionary/heap-stack", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es el \"Garbage Collector\"?", "url": "/dictionary/garbage-collector", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la clase Object?", "url": "/dictionary/object", "level": "Intermedio" },
+	{ "title": "Método \"toString()\" de la clase Object", "url": "/dictionary/toString", "level": "Intermedio" },
+	{ "title": "Método \"equals()\" de la clase Object", "url": "/dictionary/equals", "level": "Intermedio" },
+	{ "title": "Método \"hashCode()\" de la clase Object", "url": "/dictionary/hashCode", "level": "Intermedio" },
+	{ "title": "Método \"getClass()\" de la clase Object", "url": "/dictionary/getClass", "level": "Intermedio" },
+	{ "title": "Método \"clone()\" de la clase Object", "url": "/dictionary/clone", "level": "Intermedio" },
+	{ "title": "Otro ejemplo del método \"clone()\" de la clase Object", "url": "/dictionary/otro-clone", "level": "Intermedio" },
+	{ "title": "Métodos \"wait()\", \"notify()\" y \"notifyAll()\" de la clase Object", "url": "/dictionary/wait-notify-all", "level": "Intermedio" },
+
+	{ "title": "¿Cómo usar fechas (LocalDate...) en Java?", "url": "/dictionary/fechas", "level": "Intermedio" },
+
+	{ "title": "¿Qué es Optional?", "url": "/dictionary/optional", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la abstracción?", "url": "/dictionary/abstraccion", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es encapsulamiento?", "url": "/dictionary/encapsulamiento", "level": "Intermedio" },
+
+	{ "title": "¿Qué es la herencia (inheritance)?", "url": "/dictionary/herencia", "level": "Intermedio" },
+
+	{ "title": "Composición vs. Herencia (Composition vs. Inheritance)", "url": "/dictionary/composicion-herencia", "level": "Intermedio" },
+
+	{ "title": "¿Cómo se usa \"super\" (inheritance)?", "url": "/dictionary/super-herencia", "level": "Intermedio" },
+
+	{ "title": "¿Cómo se usa \"protected\"?", "url": "/dictionary/protected", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es el polimorfismo?", "url": "/dictionary/polimorfismo", "level": "Intermedio" },
+	
+
+	{ "title": "¿Qué son los genéricos (Generics: <T>, <E>, <K>, <V>)?", "url": "/dictionary/genericos", "level": "Intermedio" },
+	{ "title": "¿Hay alguna diferencia funcional en los genéricos: <T>, <E>, <K>, <V>?", "url": "/dictionary/diferentes-genericos", "level": "Intermedio" },
+
+	{ "title": "¿Qué son las colecciones de Java (Java Collections)?", "url": "/dictionary/colecciones-java", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la interfaz List y la clase ArrayList?", "url": "/dictionary/list", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase LinkedList?", "url": "/dictionary/linked-list", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase Vector?", "url": "/dictionary/vector", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase CopyOnWriteArrayList?", "url": "/dictionary/copy-on-write-array-list", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase Stack?", "url": "/dictionary/stack", "level": "Intermedio" },
+
+
+	{ "title": "¿Qué es la interfaz Set y la clase HashSet?", "url": "/dictionary/set", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase LinkedHashSet?", "url": "/dictionary/linked-hash-set", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase TreeSet?", "url": "/dictionary/tree-set", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase EnumSet?", "url": "/dictionary/enum-set", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase CopyOnWriteArraySet?", "url": "/dictionary/copy-on-write-array-set", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase ConcurrentSkipListSet?", "url": "/dictionary/concurrent-skip-list-set", "level": "Intermedio" },
+
+
+	{ "title": "¿Qué es la interfaz Map y la clase HashMap?", "url": "/dictionary/map", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase LinkedHashMap?", "url": "/dictionary/linked-hash-map", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase TreeMap?", "url": "/dictionary/tree-map", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase HashTable?", "url": "/dictionary/hash-table", "level": "Intermedio" },
+
+
+	{ "title": "¿Qué es la interfaz Queue apoyada de LinkedList?", "url": "/dictionary/queue", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase ArrayDeque?", "url": "/dictionary/array-deque", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase PriorityQueue?", "url": "/dictionary/priority-queue", "level": "Intermedio" },
+	{ "title": "¿Qué es la clase ConcurrentLinkedQueue?", "url": "/dictionary/concurrent-linked-queue", "level": "Intermedio" },
+
+
+	{ "title": "¿Qué es el manejo de excepciones (try - catch - finally)?", "url": "/dictionary/excepciones", "level": "Intermedio" },
+	{ "title": "¿Qué es la propagación de excepción (exception propagation)?", "url": "/dictionary/propagacion", "level": "Intermedio" },
+	{ "title": "¿Qué es \"throw\" y \"throws\"?", "url": "/dictionary/throw-s", "level": "Intermedio" },
+	{ "title": "¿Qué es una Excepción Personalizada?", "url": "/dictionary/excepcion-personalizada", "level": "Intermedio" },
+	{ "title": "¿Qué es una Excepción con Recursos (try-with-resources)?", "url": "/dictionary/excepcion-recursos", "level": "Intermedio" },
+	{ "title": "¿Abusamos de las Excepciones?", "url": "/dictionary/cuando-excepcion", "level": "Intermedio" },
+
+
+	{ "title": "¿Cómo hacer Leectura y Escritura de Archivos?", "url": "/dictionary/archivos", "level": "Intermedio" },
+
+	{ "title": "¿Qué son los principios SOLID?", "url": "/dictionary/solid", "level": "Intermedio" },
+	{ "title": "Principio de Responsabilidad Única (Single Responsibility Principle - SOLID)", "url": "/dictionary/srp", "level": "Intermedio" },
+	{ "title": "Principio Abierto/Cerrado (Open/Closed Principle - SOLID)", "url": "/dictionary/ocp", "level": "Intermedio" },
+	{ "title": "Principio de Sustitución de Liskov (Liskov Substitution Principle - SOLID)", "url": "/dictionary/lsp", "level": "Intermedio" },
+	{ "title": "Principio de Segregación de Interfaces (Interface Segregation Principle - SOLID)", "url": "/dictionary/isp", "level": "Intermedio" },
+	{ "title": "Principio de Inversión de Dependencia (Dependency Inversion Principle - SOLID)", "url": "/dictionary/dip", "level": "Intermedio" },
+
+
+
+
+
+	{ "title": "¿Qué es la inyección de dependencia (DI)?", "url": "/dictionary/di", "level": "Avanzado" },
+
+
+	{ "title": "¿Qué es la programación funcional?", "url": "/dictionary/programacion-funcional", "level": "Avanzado" },
+	{ "title": "¿Qué son las Expresiones Lambda (Lambda Expressions)?", "url": "/dictionary/lambda", "level": "Avanzado" },
+	{ "title": "¿Qué son las funciones de primera clase?", "url": "/dictionary/funciones-primera-clase", "level": "Avanzado" },
+	{ "title": "¿Qué es la Inmutabilidad en Java Funcional?", "url": "/dictionary/inmutabilidad", "level": "Avanzado" },
+	{ "title": "¿Qué son los Efectos Secundarios Nulos?", "url": "/dictionary/efectos-secundarios-nulos", "level": "Avanzado" },
+	{ "title": "¿Qué son las Interfaces Funcionales?", "url": "/dictionary/interfaz-funcional", "level": "Avanzado" },
+	{ "title": "¿Qué son los Streams?", "url": "/dictionary/stream", "level": "Avanzado" },
+	{ "title": "¿Qué es \"reduce()\" (en Streams)?", "url": "/dictionary/reduce", "level": "Avanzado" },
+	{ "title": "¿Qué es \"Collectors\" (en Streams)?", "url": "/dictionary/collectors", "level": "Avanzado" },
+
+
+	{ "title": "¿Qué son los hilos (Threads) en Java?", "url": "/dictionary/thread", "level": "Avanzado" },
+	{ "title": "¿Qué es la clase Runnable (Ejecutable - Threads) en Java?", "url": "/dictionary/runnable", "level": "Avanzado" },
+	{ "title": "¿Qué es el \"ExecutorService\" (Threads) en Java?", "url": "/dictionary/executor-service", "level": "Avanzado" },
+	{ "title": "¿Qué es \"Synchronized\" (Threads) en Java?", "url": "/dictionary/synchronized", "level": "Avanzado" },
+	{ "title": "¿Qué es Volátil (Volatile - Threads) en Java?", "url": "/dictionary/volatile", "level": "Avanzado" },
+	{ "title": "¿Qué es Atómico (Atomic - Threads) en Java?", "url": "/dictionary/atomic", "level": "Avanzado" },
+	{ "title": "(Threads)", "url": "/dictionary/thread", "level": "Avanzado" },
+	{ "title": "¿Qué es la condición de carrera (Race Condition - Threads)?", "url": "/dictionary/condicion-carrera", "level": "Avanzado" },
+	{ "title": "¿Qué es el hilo daemon (daemon thread) en Java?", "url": "/dictionary/daemon-thread", "level": "Avanzado" },
+	{ "title": "Diferencia entre paralelismo (Fork) y concurrencia (Threads)", "url": "/dictionary/paralelismo-concurrencia", "level": "Avanzado" },
+
+	
+	{ "title": "¿Qué son los patrones de diseño?", "url": "/dictionary/desing-patterns", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Singleton\"?", "url": "/dictionary/singleton", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Builder\"?", "url": "/dictionary/builder", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Factory Method\"?", "url": "/dictionary/factory-method", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Observer\"?", "url": "/dictionary/observer", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Decorator\"?", "url": "/dictionary/decorator", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"Strategy\"?", "url": "/dictionary/strategy", "level": "Avanzado" },
+	{ "title": "¿Cómo usar el patrón de diseño \"DTO\"?", "url": "/dictionary/dto", "level": "Avanzado" },
+
+
+	{ "title": "Frameworks y su uso con Java", "url": "/dictionary/framework", "level": "Avanzado" },
+	{ "title": "¿Qué es HTTP?", "url": "/dictionary/http", "level": "Avanzado" },
+	{ "title": "¿Qué es un JSON?", "url": "/dictionary/json", "level": "Avanzado" },
+	{ "title": "¿Qué es un MVC y un REST API?", "url": "/dictionary/mvc-restapi", "level": "Avanzado" },
+	{ "title": "¿Cómo diseñar una nueva API?", "url": "/dictionary/como-nueva-api", "level": "Avanzado" },
+	{ "title": "Interacción de Java con los datos (SQL)", "url": "/dictionary/base-datos", "level": "Avanzado" },
+	
+
+	{ "title": "¿Qué es Sprign Boot?", "url": "/dictionary/que-es-spring-boot", "level": "Avanzado" },
+
+	{ "title": "¿Qué son los \"Controladores\", \"Servicios\" y \"Repositorios\"?", "url": "/dictionary/cont-serv-repo", "level": "Avanzado" },
+
+
+	{ "title": "0. Introducción cosas que necesitas para Spring Boot", "url": "/dictionary/0-necesitas", "level": "Avanzado" },
+	{ "title": "1. Primera aplicación: Movie (Spring Boot)", "url": "/dictionary/1-movie", "level": "Avanzado" },
+	{ "title": "2. Persistencia de la API (Spring Boot)", "url": "/dictionary/2-persistencia-api", "level": "Avanzado" },
+	{ "title": "3. Servicio de la API (Spring Boot)", "url": "/dictionary/3-servicio-api", "level": "Avanzado" },
+	{ "title": "4. POM, Servicio y Controlador la API (Spring Boot)", "url": "/dictionary/4-pom-serv-cont", "level": "Avanzado" },
+	{ "title": "5. Controlador y peticiones a la API (Spring Boot)", "url": "/dictionary/5-cont-peticiones", "level": "Avanzado" },
+	{ "title": "6. Validaciones en los DTOs y excepciones de la API (Spring Boot)", "url": "/dictionary/6-validacion-excepcion", "level": "Avanzado" }
+
+	
+]

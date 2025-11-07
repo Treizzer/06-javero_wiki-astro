@@ -1,0 +1,114 @@
+[
+	{ "title": "¿Qué es Java?", "url": "/dictionary/que-es-java", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los datos primitivos?", "url": "/dictionary/datos-primitivos", "level": "Principiante" },
+	
+	{ "title": "¿Qué es una plabra clave/reservada o keyword?", "url": "/dictionary/keyword", "level": "Principiante" },
+
+	{ "title": "¿Cómo imprimir texto en Java?", "url": "/dictionary/imprimir-texto", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los caracteres de escape en Java?", "url": "/dictionary/caracteres-escape", "level": "Principiante" },
+
+	{ "title": "¿Qué es la clase Scanner o ingresar texto en Java?", "url": "/dictionary/ingresar-texto", "level": "Principiante" },
+
+	{ "title": "¿Qué son las variables y constantes?", "url": "/dictionary/variables-constantes", "level": "Principiante" },
+
+	{ "title": "¿Qué es castear (casting)?", "url": "/dictionary/casting", "level": "Principiante" },
+
+	{ "title": "Comentarios y ¿con que se comen?", "url": "/dictionary/comentarios", "level": "Principiante" },
+
+	{ "title": "¿Qué son los operadores aritméticos, lógicos y de comparación?", "url": "/dictionary/arit-logic-comp", "level": "Principiante" },
+
+	{ "title": "¿Qué es una estructura de control?", "url": "/dictionary/estructura-control", "level": "Principiante" },
+
+	{ "title": "¿Qué es la estructura de control if, else if y else?", "url": "/dictionary/if-else_if-else", "level": "Principiante" },
+	
+	{ "title": "¿Qué es el operador ternario?", "url": "/dictionary/ternario", "level": "Principiante" },
+
+	{ "title": "¿Qué es anidar código?", "url": "/dictionary/anidar", "level": "Principiante" },
+
+	{ "title": "¿Qué es la estructura de control switch?", "url": "/dictionary/switch", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle for?", "url": "/dictionary/bucle-for", "level": "Principiante" },
+	
+	{ "title": "¿Qué es el bucle for-each?", "url": "/dictionary/bucle-for-each", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle while?", "url": "/dictionary/bucle-while", "level": "Principiante" },
+
+	{ "title": "¿Qué es el bucle do-While?", "url": "/dictionary/bucle-do-while", "level": "Principiante" },
+
+	{ "title": "¿Qué es la resursión (recursividad)?", "url": "/dictionary/recursion", "level": "Principiante" },
+	
+	{ "title": "¿Qué son los métodos en Java?", "url": "/dictionary/metodos-nivel_1", "level": "Principiante" },
+
+	{ "title": "¿Qué son los arreglos (arrays) en Java?", "url": "/dictionary/arreglos", "level": "Principiante" },
+
+	{ "title": "Arreglos (arrays) unidimensionales y multidimensionales", "url": "/dictionary/arreglos-uni-multi", "level": "Principiante" },
+
+	{ "title": "¿Qué es una clase en Java?", "url": "/dictionary/que-es-una-clase", "level": "Principiante" },
+
+	{ "title": "¿Qué son los \"getters\" y \"setters\" Java?", "url": "/dictionary/getter-setter", "level": "Principiante" },
+
+
+
+	{ "title": "¿Qué es la sobrecarga de métodos?", "url": "/dictionary/sobrecarga-metodos", "level": "Intermedio" },
+
+	{ "title": "Métodos en Java nivel 2", "url": "/dictionary/metodos-nivel_2", "level": "Intermedio" },
+
+	{ "title": "¿Qué es un apuntador o palabra clave \"this\"?", "url": "/dictionary/this", "level": "Intermedio" },
+
+	
+	{ "title": "¿Qué es la programación modular?", "url": "/dictionary/programacion-modular", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es POO u OOP?", "url": "/dictionary/poo-oop", "level": "Intermedio" },
+	
+	{ "title": "¿Cuál es la diferencial entre clases y objetos?", "url": "/dictionary/clases-objetos", "level": "Intermedio" },
+	
+	{ "title": "¿Qué son los tipos de datos NO primitivos?", "url": "/dictionary/no-primitivos", "level": "Intermedio" },
+	
+	{ "title": "¿Cuáles la diferencia entre \"==\" e \".equals()\"?", "url": "/dictionary/doble-igual-equals", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es el scope/alcance?", "url": "/dictionary/scope", "level": "Intermedio" },
+	
+	{ "title": "Diferencia entre el \"heap\" y el \"stack\" en Java", "url": "/dictionary/heap-stack", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es el \"Garbage Collector\"?", "url": "/dictionary/garbage-collector", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la clase Object?", "url": "/dictionary/object", "level": "Intermedio" },
+	{ "title": "Método \"toString()\" de la clase Object", "url": "/dictionary/toString", "level": "Intermedio" },
+	{ "title": "Método \"equals()\" de la clase Object", "url": "/dictionary/equals", "level": "Intermedio" },
+	{ "title": "Método \"hashCode()\" de la clase Object", "url": "/dictionary/hashCode", "level": "Intermedio" },
+	{ "title": "Método \"getClass()\" de la clase Object", "url": "/dictionary/getClass", "level": "Intermedio" },
+	{ "title": "Método \"clone()\" de la clase Object", "url": "/dictionary/clone", "level": "Intermedio" },
+	{ "title": "Otro ejemplo del método \"clone()\" de la clase Object", "url": "/dictionary/otro-clone", "level": "Intermedio" },
+	{ "title": "Métodos \"wait()\", \"notify()\" y \"notifyAll()\" de la clase Object", "url": "/dictionary/wait-notify-all", "level": "Intermedio" },
+	
+	{ "title": "¿Cuáles son los 4 pilares de Java?", "url": "/dictionary/4-pilares-java", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es la abstracción?", "url": "/dictionary/abstraccion", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es encapsulamiento?", "url": "/dictionary/encapsulamiento", "level": "Intermedio" },
+
+	{ "title": "¿Qué es la herencia (inheritance)?", "url": "/dictionary/herencia", "level": "Intermedio" },
+
+	{ "title": "¿Cómo se usa \"super\" (inheritance)?", "url": "/dictionary/super-herencia", "level": "Intermedio" },
+
+	{ "title": "¿Cómo se usa \"protected\"?", "url": "/dictionary/protected", "level": "Intermedio" },
+	
+	{ "title": "¿Qué es el polimorfismo?", "url": "/dictionary/protected", "level": "Intermedio" },
+
+
+
+	{ "title": "¿Qué es el hilo daemon (daemon thread) en Java?", "url": "/dictionary/daemon-thread", "level": "Intermedio" },
+
+
+	{ "title": "¿Qué es la programación funcional?", "url": "/dictionary/programacion-funcional", "level": "Intermedio" },
+	
+
+	
+
+
+
+	
+	{ "title": "¿Qué es Sprign Boot?", "url": "/dictionary/que-es-spring-boot", "level": "Avanzado" }
+]

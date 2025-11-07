@@ -1,11 +1,149 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// const fetchEntries = async () => {
+//   const res = await fetch("/entries.json");
+//   const results = await res.json();
+//   return results;
+// };
+// const entries = await fetchEntries();
 ---
 
 <Layout>
-	<Welcome />
+  <section class="container">
+    <header>
+      <h1 class="title">
+        Wiki de <span style="color: #FF2F45;">Java</span> & <span
+          style="color: #adff2f;">Spring</span
+        >
+      </h1>
+      <section class="search-section">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Ingresa lo que quieras buscar sobre Java..."
+        />
+        <ul id="suggestions"></ul>
+      </section>
+    </header>
+
+    <section class="logo-section">
+      <!-- <img src="/images/logo_transparent.png" id="home-logo" alt="Logo" /> -->
+      <img src="/images/logo_portrait_mod.png" id="home-logo" alt="Logo" />
+    </section>
+
+    <main>
+      <section id="main-content">
+        <h3>Principales preguntas</h3>
+        <ul class="list-f-q">
+          <li>
+            <a accesskey="/dictionary/que-es-java" class="opt">¿Qué es Java?</a>
+          </li>
+          <li>
+            <a accesskey="/dictionary/que-es-una-clase" class="opt">
+              ¿Qué es una clase en Java?
+            </a>
+          </li>
+          <li>
+            <a accesskey="/dictionary/que-es-spring-boot" class="opt">
+              ¿Qué es Spring Boot?
+            </a>
+          </li>
+        </ul>
+        <br />
+      </section>
+    </main>
+  </section>
+  <section class="goodbye">Gracias por leer el contenido.</section>
 </Layout>
+
+<script>
+  import type { Entry } from "../lib/data";
+  // import { entries } from "../../public/entries.json";
+
+  const searchInput = document.getElementById(
+    "search-bar"
+  ) as HTMLTextAreaElement;
+  const suggestions = document.getElementById(
+    "suggestions"
+  ) as HTMLUListElement;
+
+  const main = document.getElementById("main-content") as HTMLElement;
+  const homeLogo = document.getElementById("home-logo") as HTMLImageElement;
+
+  //
+  const defaultContent = main.innerHTML;
+
+  const response = await fetch("/entries.json");
+  const entries = await response.json();
+  console.log(entries);
+
+  // Listen for typing
+  searchInput?.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase();
+    suggestions.innerHTML = "";
+
+    if (!query) return;
+
+    // const matches = entries.filter((e: Entry) =>
+    //   e.title.toLowerCase().includes(query)
+    // );
+    const matches = entries.map((e: Entry) => {
+      if (e.title.toLocaleLowerCase().includes(query)) {
+        return e;
+      }
+      return null;
+    });
+
+    matches.forEach((match: Entry) => {
+      if (match && match.url) {
+        // V1
+        // const li = document.createElement("li");
+        // const link = document.createElement("a");
+        // link.href = match.url;
+        // link.textContent = match.title;
+        // li.appendChild(link);
+        // suggestions.appendChild(li);
+
+        const li = document.createElement("li");
+        li.textContent = match.title;
+        li.style.cursor = "pointer";
+        li.addEventListener("click", () => loadEntry(match.url));
+        suggestions.appendChild(li);
+      }
+    });
+  });
+
+  function loadEntry(url: string) {
+    fetch(url)
+      .then((res) => res.text())
+      .then((html) => {
+        main.innerHTML = html;
+        suggestions.innerHTML = "";
+        searchInput.value = "";
+      })
+      .catch((err) => {
+        main.innerHTML = "<p>Error cargando el contenido.</p>";
+      });
+  }
+
+  loadFrequentQuestions();
+
+  function loadFrequentQuestions() {
+    const opt = document.getElementsByClassName("opt") as HTMLCollection;
+    for (let i = 0; i < opt.length; i++) {
+      const url = opt.item(i)?.getAttribute("accesskey");
+      if (url) {
+        opt.item(i)?.addEventListener("click", () => loadEntry(url));
+      }
+      // console.log(opt.item(i)?.getAttribute("href"));
+    }
+  }
+
+  // homeLogo.style.cursor = "pointer";
+  homeLogo.addEventListener("click", () => {
+    // main.innerHTML = defaultContent;
+    location.reload();
+  });
+</script>
