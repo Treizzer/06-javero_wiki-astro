@@ -59,14 +59,16 @@ public class MovieEntity {
     @Column(nullable = false)
     private int duration;
     
-    private float rating;
+    private int rating;
     
     private String genre;
     
 }
 ```
 
-*Así es, muchas anotaciones, la anotación `@Getter` genera todos los getters de la clase, existe la notación `@Setter` o podemos usar la anotación `@Builder` para usar este padrón de diseño, creamos dos constructores: uno sin argumentos `@NoArgsConstructor` y otro con todos los atributos de nuestra clase `@AllArgsConstructor`, `@Entity` le explica al programa que es una entidad y no una clase común o de soporte, `@Table(name = "movies")` especifica la tabla principal para la entidad anotada,además se le da nombre a la tabla, sino le especificamos el nombre; se asignará de forma automática el nombre de la propia clase, `@Id` da a conocer que este atributo y prontamente columna va a ser nuestro identificador unico, acompañado a lo anterior se asigna `@GeneratedValue(strategy = GenerationType.IDENTITY)`, para que este atributo sea una clave primaria (primary key) y sea autoincrementable, como podras percatarte, la anotación `@Column(properties...)` es opcional, la anotación `@Table` se encarga de identificar los atributos como columnas, así como el usar una o más propiedades dentro de la anotación.*
+* Así es, muchas anotaciones, la anotación `@Getter` genera todos los getters de la clase, existe la notación `@Setter` o podemos usar la anotación `@Builder` para usar este padrón de diseño, creamos dos constructores: uno sin argumentos `@NoArgsConstructor` y otro con todos los atributos de nuestra clase `@AllArgsConstructor`, `@Entity` le explica al programa que es una entidad y no una clase común o de soporte, `@Table(name = "movies")` especifica la tabla principal para la entidad anotada,además se le da nombre a la tabla, si no le especificamos el nombre; se asignará de forma automática el nombre de la propia clase.
+
+* `@Id` da a conocer que este atributo y prontamente columna va a ser nuestro identificador unico, acompañado a lo anterior se asigna `@GeneratedValue(strategy = GenerationType.IDENTITY)`, para que este atributo sea una clave primaria (primary key) y sea autoincrementable, como podras percatarte, la anotación `@Column(properties...)` es opcional, la anotación `@Table` se encarga de identificar los atributos como columnas, también es opcional usar una o más propiedades dentro de la anotación `@Column`, con `name` asignamos un nombre especifico en la table, ej. El atributo `releaseYear` mantendría su nombre si no especificamos otro, cambio el nombre para respetar la forma de las declaraciones en SQL, es decir, usar el guion bajo (*_*) para separar palabras, y con la propiedad `nullable = false` dejamos como regla en la *BD*: que la columna no puede almacenar un valor nulo, aunque al usar tipos primitivos se define por defecto no aceptar valores nulos.
 
 3. Ahora saldremos de este directorio y entraremos a la carpeta "*repository*" (creada con anterioridad) y en ella crearemos un repositorio con el nombre `IMovieRepository`.
 

@@ -47,7 +47,7 @@ public class MovieDto {
     private int releaseYear;
     private double budget;
     private int duration;
-    private float rating;
+    private int rating;
     private String genre;
     
 }
@@ -67,7 +67,7 @@ public class MovieInsertDto {
     int releaseYear;
     double budget;
     int duration;
-    float rating;
+    int rating;
     String genre;
 
 }
@@ -87,7 +87,7 @@ public class MovieUpdateDto {
     int releaseYear;
     double budget;
     int duration;
-    float rating;
+    int rating;
     String genre;
 
 }

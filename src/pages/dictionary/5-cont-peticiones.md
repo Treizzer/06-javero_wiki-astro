@@ -84,7 +84,7 @@ public class MovieController {
     "releaseYear": 2010,
     "budget": 1100500.00,
     "duration": 95,
-    "rating": 4.5,
+    "rating": 45,
     "genre": "Comedia"
 }
 ```

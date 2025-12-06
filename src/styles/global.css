@@ -26,8 +26,9 @@ pre {
   max-width: 100%;
 }
 .example-img img {
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 370px;
+  border-radius: 6px;
 }
 
 pre code {
