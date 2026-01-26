@@ -772,5 +772,20 @@
     "title": "¿Qué es la Arquitectura Hexagonal?",
     "url": "/dictionary/hexagonal",
     "level": "Avanzado"
+  },
+  {
+    "title": "¿Qué es Spring Security?",
+    "url": "/dictionary/spring-security",
+    "level": "Avanzado"
+  },
+  {
+    "title": "¿Qué es JWT (Spring Security)?",
+    "url": "/dictionary/jwt",
+    "level": "Avanzado"
+  },
+  {
+    "title": "¿Qué es Spring Batch?",
+    "url": "/dictionary/spring-batch",
+    "level": "Avanzado"
   }
 ]
