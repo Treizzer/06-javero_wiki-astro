@@ -55,7 +55,7 @@ public class MovieInsertDto {
 }
 ```
 
-*Nota: es recomendable que para la entrada de datos donde se utilizan los DTOs, todos los atributos sean de tipo no primitivo (wrapper); con ello máximizamos la robustez en la validación de entrada, para la persistencia (`MoviEntity`) es bueno usar primitivos para mejorar el rendimiento. Es posible e incluso sería más sencillo, y con menos explicación si todos los atributos de las clases que manejan, transportan o almacenan información de nuestros registros: `MovieEntity`, `MovieDto`, `MovieInsertDto` y `MovieUpdateDto` sus atributos estuvieran declarados con tipos de datos no primitivos (wrappers).*
+*Nota: es recomendable que para la entrada de datos donde se utilizan los DTOs, todos los atributos sean de tipo no primitivo (wrapper); con ello máximizamos la robustez en la validación de entrada, para la persistencia o entidades (`MoviEntity`) es bueno usar primitivos para mejorar el rendimiento. Es posible e incluso sería más sencillo, y con menos explicación si todos los atributos de las clases que manejan, transportan o almacenan información de nuestros registros: `MovieEntity`, `MovieDto`, `MovieInsertDto` y `MovieUpdateDto` sus atributos estuvieran declarados con tipos de datos no primitivos (wrappers).*
 
 * Como podras observar, cambiamos el tipo de los atributos: `releaseYear`, `budget`, `duration` y `rating`, porque si recuerdas la clase `MovieEntity`, veras que especificamos que los atributos de `releaseYear` y `duration` no pueden ser nulos, por ello cambiamos a sus *no primitivos* (*wrappers*), para poder validar que no sean nulos. 
 
@@ -107,9 +107,8 @@ public class GlobalExceptionHandler {
     ) {
         Map<String, String> errors = new HashMap<>();
         ex.getBindingResult().getFieldErrors()
-            .forEach(e -> errors.put(
-                e.getField(), 
-                e.getDefaultMessage()+ " -> "+ e.getRejectedValue())
+            .forEach(e -> 
+                errors.put(e.getField(), e.getDefaultMessage())
             );
 
         // Forma completa y antigua pero útil
@@ -129,7 +128,7 @@ public class GlobalExceptionHandler {
 
 * Repasemos el flujo. Cuando Spring lanza la excepción `MethodArgumentNotValidException`, `@RestControllerAdvice` la intercepta, Spring llama al método `handleValidationExceptions` ya que es el encargado de recibir dicha excepción e inyecta la instancia (objeto del `MethodArgumentNotValidException`) de la excepción lanzada en el parámetro `ex`.
 
-* `ex.getBindingResult()` nos retorna los resultados de la validación, es el contenedor que tiene la lista de todos los errores, `.getFieldErrors()` devuelve una lista de objetos `FieldError`, el cual es un tipo de error específico que está asociado a un campo individual de un objeto DTO, ej. "title", "budget", "releaseYear", etc. La variable `e` pertenece a un `FieldError` de la lista, `e.getField()` retorna el nombre del campo (atributo) que falló en la validación; siendo almacenado como clave en nuestro mapa, ya que cada campo es único, `e.getDefaultMessage()` devuelve el mensaje de error que definimos en la anotación o anotaciones sobre el atributo en la clase DTO, ej. *"Ingresa el título de la película"*, lo concatenamos con un *" -> "* para concatenar lo que regrese `e.getRejectedValue()` como valor, dicho valor será lo que provoco el error, y claro el cual el usuario envió dentro del cuerpo de la petición, ej. **null** o *"    "* (espacios en blanco).
+* `ex.getBindingResult()` nos retorna los resultados de la validación, es el contenedor que tiene la lista de todos los errores, `.getFieldErrors()` devuelve una lista de objetos `FieldError`, el cual es un tipo de error específico que está asociado a un campo individual de un objeto DTO, ej. "title", "budget", "releaseYear", etc. La variable `e` pertenece a un `FieldError` de la lista, `e.getField()` retorna el nombre del campo (atributo) que falló en la validación; siendo almacenado como clave en nuestro mapa, ya que cada campo es único, `e.getDefaultMessage()` devuelve el mensaje de error que definimos en la anotación o anotaciones sobre el atributo en la clase DTO, ej. *"Ingresa el título de la película"*.
 
 5. Ahora configuraremos la clase `MovieUpdateDto`
 
@@ -147,9 +146,6 @@ import lombok.Value;
 @Value
 public class MovieUpdateDto {
     
-    @Min(value = 1, message = "El id solo acepta números positivos")
-    Long id; // No necesitaremos usar el @NotNull
-
     @Pattern(regexp = "^(?!\\s*$).+", message = "El título no puede ser vacío o tener espacios en blanco")
     @Size(max = 255, message = "El título no debe de exceder los 255 carácteres")
     String title;
@@ -174,7 +170,6 @@ public class MovieUpdateDto {
 
 }
 ```
-* Aquí volvemos a usar *wrappers* en lugar de los tipos primitivos, mantenemos varias validaciones similares a las de la clase `MovieInsertDto`, pero agregamos el atributo *id*; a pesar de que esta clase es para actualizaciones y debemos de tener un rastro para saber cual registro modificar, en el no agregaremos un `@NotNull`, porque vamos a permitir que sea posible recibir su *id* por medio del controlador de forma individual, usando la misma ruta del **endpoint** o su path (`ruta/api/v1/bla/bla/id`).
 
 * En los atributos de tipo `String` cambie la anotación `@NotBlank` por la de `@Pattern`, la cual permite el uso de **regex** (expresiones regulares); dando posibilidad de usar caracteres para validar patrones en nuestro `Strign` y así permitir o no ciertos tipos de texto, el patron a evaluar se declara con el uso del atributo `regexp`, **"^(?!\\s*$).+"**.
     * **^**: Evaluamos desde el principio del texto.
@@ -184,6 +179,10 @@ public class MovieUpdateDto {
     * **$**: Fin del texto, lo que se reciba de la cadena hasta el final del texto.
     * **.**: Representa cualquier carácter, excepto salto de línea.
     * **+**: Acepta al manos una vez
+    
 *La expresión regular se podría leer como: Empieza a comprobar desde el inicio, verifica que no sea solo espacios en blanco o vacío **""**, debe tener al menos un carácter real.*
 
 En la siguiente sección se abordarán las integraciones de buscar por *id*, actualizar y eliminar en el controlador y servicios de las películas.
+
+<br>
+<br>

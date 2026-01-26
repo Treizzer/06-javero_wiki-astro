@@ -82,7 +82,6 @@ import lombok.Value;
 @Value
 public class MovieUpdateDto {
     
-    Long id;
     String title;
     int releaseYear;
     double budget;
@@ -93,7 +92,7 @@ public class MovieUpdateDto {
 }
 ```
 
-*Cómo notaras por el nombre, está clase será destinada para recibir información actualizada y pasarla a nuestra entidad en nuestra base de datos, escribimos nuevamente el "id" ya que el *frontend* podría regresarlo como referencia; con la finalidad saber que registro debemos de actualizar. Por el momento dejaremos estos DTOs simples, posteriormente veremos como agregar validaciones*
+*Por el momento dejaremos estos DTOs simples, posteriormente veremos como agregar validaciones*
 
 5. Volvamos al directorio que posee el archivo que ejecuta nuestro proyecto (`Application.java`) y entremos a *service* -> *implementation*. Vamos a crear un archivo que manejará la lógica de de nuestro Servicio para la entidad `MovieEntity`, la llamaré: `MovieService`
 

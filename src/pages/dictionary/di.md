@@ -89,7 +89,9 @@ Ahora, la clase `Client` no se preocupa por cómo se crea el `Service`; solo sab
 ### Beneficios de la Inyección de Dependencia
 
 1.  **Acoplamiento Débil:** Los componentes son menos dependientes entre sí. Puedes cambiar la implementación de una dependencia sin tener que modificar la clase que la usa.
+
 2.  **Facilidad de Pruebas Unitarias:** Al inyectar las dependencias, puedes reemplazar objetos reales con **mocks** (objetos de prueba) durante las pruebas unitarias. Esto te permite aislar y probar cada clase de forma independiente.
+
 3.  **Código Reutilizable:** Al separar la creación de objetos de su uso, los componentes se vuelven más modulares y pueden ser reutilizados en diferentes partes de la aplicación.
 
 ### ¿Quién realiza la inyección?
