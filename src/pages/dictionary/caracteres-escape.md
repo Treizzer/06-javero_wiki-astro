@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué son los caracteres de escape en Java?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

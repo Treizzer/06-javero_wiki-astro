@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "9. Eliminar por ID con petición a la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

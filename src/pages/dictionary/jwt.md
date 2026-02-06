@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: ¿Qué es JWT (Spring Security)?
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

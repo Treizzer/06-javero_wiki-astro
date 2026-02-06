@@ -42,6 +42,24 @@ pre code {
 .advanced { color: #00FF00; }
 
 
+/* Layout */
+html,
+body {
+  background-color: black;
+  /* background-image: linear-gradient(to bottom, black, #812fff); */
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  /*  */
+  font-family:
+    "Inter", "Roboto", "Segoe UI", Arial, sans-serif; /* sans-serif */
+  font-size: 16px; /* 16–18px (17.12px) */
+  line-height: 1.6; /* line-height: 1.5–1.7 */
+  letter-spacing: 0.02em; /* subtle improvement */
+}
+
+
 /* Index */
 .container {
   /* background-image: linear-gradient(to bottom, black, #812fff); */
@@ -106,10 +124,12 @@ pre code {
   font-size: xx-large;
   color: whitesmoke;
   /* margin-left: 10px; */
+  margin-bottom: 30px;
 }
 
 .search-section {
-  width: 600px;
+  /* width: 600px; */
+  max-width: 90%;
   position: relative;
 }
 
@@ -134,27 +154,38 @@ pre code {
 
 #suggestions {
   position: absolute;
-  top: 40px;
+  /* top: 40px; */
+  top: 100%;
   left: 0;
   right: 0;
+  
   list-style-type: none;
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  overflow: hidden;
-  padding-left: 0;
-  margin: 10px 5px;
+  /* background-color: white; */
+  background-color: #333;
+  /* color: black; */
+  /* border-radius: 5px; */
+  border-radius: 6px;
+  /* overflow: hidden; */
+  /* padding-left: 0; */
+  padding: 0;
+  /* margin: 10px 5px; */
+  margin: 4px 0 0;
+
+  
+  /* z-index: 10; */
   z-index: 10;
-  width: 100%;
-  max-height: 350px;
-  overflow: auto;
+  /* width: 100%; */
+  /* max-height: 350px; */
+  max-height: 250px;
+  /* overflow: auto; */
+  overflow-y: auto;
   
   /* width: 100%;
   padding-left: 0;
   margin-left: 0;
   text-indent: 20px; */
 }
-#suggestions li {
+/* #suggestions li {
   padding: 7px 10px;
   cursor: pointer;
 }
@@ -163,10 +194,36 @@ pre code {
   background-color: lightblue;
 }
 
+#suggestions a {
+  display: block;
+  padding: 7px 10px;
+  color: black;
+}
+
+#suggestions a:hover {
+  transition-duration: 200ms;
+  background-color: lightblue;
+}
+
 a {
   text-decoration: none;
   color: black;
   cursor: pointer;
+} */
+
+#suggestions li a {
+  display: block;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  /* cursor: pointer; */
+}
+#suggestions li a:hover {
+  background-color: #0099ff70; /* Opacity */
+}
+#suggestions li.empty {
+  padding: 10px 12px;
+  color: #ddd;
 }
 
 .list-f-q li{

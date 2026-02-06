@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es la clase ArrayDeque?"
+---
+
 <span class="intermediate">Intermedio</span>
 
 ***

@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "1. Primera aplicación: Movie"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

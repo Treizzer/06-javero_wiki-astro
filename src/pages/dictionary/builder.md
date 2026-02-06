@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Cómo usar el patrón de diseño Builder?"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

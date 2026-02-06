@@ -1,8 +1,13 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es atómico (Atomic - Threads) en Java?"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***
 
-# ¿Qué es Atómico (Atomic - Threads) en Java?
+# ¿Qué es atómico (Atomic - Threads) en Java?
 
 **Atomicidad** (o ser **atómico**) ⚛️ es uno de los conceptos más cruciales en programación concurrente y es central para entender cómo funcionan `synchronized` y `volatile`.  En Java, una operación se considera **atómica** si se ejecuta como una **unidad única e indivisible**.
 

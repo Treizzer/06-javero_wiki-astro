@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué son los operadores aritméticos, lógicos y de comparación?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

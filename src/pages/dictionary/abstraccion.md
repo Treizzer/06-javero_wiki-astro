@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es la abstracción?"
+---
+
 <span class="intermediate">Intermedio</span>
 
 ***

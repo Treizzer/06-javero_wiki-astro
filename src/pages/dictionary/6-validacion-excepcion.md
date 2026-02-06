@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "6. Validaciones en los DTOs y excepciones de la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

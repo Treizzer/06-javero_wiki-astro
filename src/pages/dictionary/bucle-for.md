@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/Layout.astro
-title: "Bucle For"
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es el bucle for?"
 ---
 
 <span class="beginner">Principiante</span>
 
 ***
 
-# Bucle For
+# ¿Qué es el bucle for?
 
 En Java, un **bucle for** se utiliza para repetir un bloque de código un número determinado de veces.
 

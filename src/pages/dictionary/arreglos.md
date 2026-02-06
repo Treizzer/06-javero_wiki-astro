@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué son los arreglos (arrays) en Java?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

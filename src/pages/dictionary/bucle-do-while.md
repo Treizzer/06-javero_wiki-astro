@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es el bucle do-while?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

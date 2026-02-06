@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Cuáles son los 4 pilares de Java?"
+---
+
 <span class="intermediate">Intermedio</span>
 
 ***

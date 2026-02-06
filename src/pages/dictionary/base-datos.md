@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "Interacción de Java con los datos (SQL)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

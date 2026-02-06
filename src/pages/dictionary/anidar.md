@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es anidar código?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***
@@ -5,6 +10,8 @@
 # ¿Qué es anidar código?
 
 **Anidar código** (o `nesting code`) es la práctica de colocar una estructura de código dentro de otra. Se usa para crear una jerarquía lógica, donde la estructura interna depende de la externa para su ejecución. La anidación es común en casi todos los lenguajes de programación y es fundamental para construir bucles y condicionales complejos.
+
+Imagina que tu cuarto es tu método `public static void main(String[] args) {}`, y tienes dos cajas fuerte (o cajas de seguridad), una caja (claramente más pequeña) está adentro/anidada de la otra (la más grande), cada una es un `if (contrasena) {}` que requieren de una contraseña para poder acceder, en este punto tu podrías guardar lo más importante dentro de tu caja anidad (interna) y lo menos importante, pero igualmente valioso en la caja grande (externa).
 
 ### ¿Cómo funciona? 🧩
 

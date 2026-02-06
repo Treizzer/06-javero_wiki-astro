@@ -1,8 +1,13 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Cómo Hacer Lectura y Escritura de Archivos?"
+---
+
 <span class="intermediate">Intermedio</span>
 
 ***
 
-# ¿Cómo hacer Leectura y Escritura de Archivos?
+# ¿Cómo hacer lectura y escritura de Archivos?
 
 La **lectura y escritura de archivos en Java** es un proceso fundamental que permite a los programas interactuar con el sistema de archivos para almacenar y recuperar datos de forma persistente. Esto se realiza principalmente a través de un concepto clave: los **flujos (streams)**.
 

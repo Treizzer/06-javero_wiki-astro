@@ -1,4 +1,9 @@
-<span class="beginner">Principiante</span>/<span class="intermediate">Intermedio</span>
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es castear (casting)?"
+---
+
+<span class="beginner">Principiante</span> / <span class="intermediate">Intermedio</span>
 
 ***
 

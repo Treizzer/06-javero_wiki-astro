@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "2. Creando la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

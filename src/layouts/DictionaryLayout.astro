@@ -1,0 +1,13 @@
+---
+import Layout from "./Layout.astro"
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout
+  title={`${frontmatter.title} | Javero Wiki`}
+>
+  <article>
+    <slot />
+  </article>
+</Layout>

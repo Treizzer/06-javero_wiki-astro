@@ -1,8 +1,13 @@
-<span class="beginner">Principiante</span>
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "0. Introducción, cosas que necesitas para Spring Boot"
+---
+
+<span class="advanced">Avanzado</span>
 
 ***
 
-# 0. Introducción cosas que necesitas para Spring Boot
+# 0. Introducción, cosas que necesitas para Spring Boot
 
 Todo esto es teniendo en cuenta que ya tienen instalado Java, un editor de código, ya saben un nivel más o menos intermedio de Java, tienen una computadora, internet, una casa, están vivos, tienen oxigeno,
 

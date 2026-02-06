@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "3. Servicio de la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

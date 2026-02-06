@@ -1,10 +1,15 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "4. POM, Servicio y Controlador la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***
 
 # 4. POM, Servicio y Controlador la API (Spring Boot)
 
-1. En la ruta raíz de tu proyecto abre el archivo "*pom.xml*", si no sabes HTML, lo esencial es que las estructuras que esten delimitadas con `<>` (normalmente tienen algo escrito), a esto se le conoce como elemento o elementos, siempre tendrán una parte donde cierran con `</>`, ej. `<modelVersion>4.0.0</modelVersion>`, busca el elemento: `<dependencies>`, dentro tiene más elementos anidados (hijos) los cuales son elementos: `<dependency>`, cada elemento de este último tipo son dependencias, sirven para tener funcionalidades externas y no tener que crear nada desde cero, podrás ver nombres de algunas dependencias que agregamos al crear el proyecto, como "*lombok*", agregaremos otra dependencia, dirigete a tu navegador web y búsca "modelmapper" (`https://modelmapper.org/`), una vez entres; presiona el botón "Getting Started", en el primer recuadro que tiene de título: "Setting Up" copia toda la estructura XML y la tienes que pegar dentro de los limites del elemento `<dependencies>`, guarda el archivo, a veces el editor menciona si quieres refrescar el proyecto para que se cargue todo sin problemas, en VSCode aparece como una notificación en la parte inferior derecha y en IntelliJ IDEA aparece un icono con una "*m*" y una flecha haciendo un circulo (como el recargar/refrecar la página de los navegadores).
+1. En la ruta raíz de tu proyecto, abre el archivo "*pom.xml*", si no sabes HTML, lo esencial es que las estructuras que esten delimitadas con `<>` (normalmente tienen algo escrito), a esto se le conoce como elemento o elementos, siempre tendrán una parte donde cierran con `</>`, ej. `<modelVersion>4.0.0</modelVersion>`, busca el elemento: `<dependencies>`, dentro tiene más elementos anidados (hijos) los cuales son elementos: `<dependency>`, cada elemento de este último tipo son dependencias, sirven para tener funcionalidades externas y no tener que crear nada desde cero, podrás ver nombres de algunas dependencias que agregamos al crear el proyecto, como "*lombok*", agregaremos otra dependencia, dirigete a tu navegador web y búsca "modelmapper" (`https://modelmapper.org/`), una vez entres; presiona el botón "Getting Started", en el primer recuadro que tiene de título: "Setting Up" copia toda la estructura XML y la tienes que pegar dentro de los limites del elemento `<dependencies>`, guarda el archivo, a veces el editor menciona si quieres refrescar el proyecto para que se cargue todo sin problemas, en VSCode aparece como una notificación en la parte inferior derecha y en IntelliJ IDEA aparece un icono con una "*m*" y una flecha haciendo un circulo (como el recargar/refrecar la página de los navegadores).
 
 ```xml
 <dependency>

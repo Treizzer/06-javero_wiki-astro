@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "¿Qué es el bucle while?"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

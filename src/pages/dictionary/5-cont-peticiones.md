@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "5. Controlador y peticiones a la API (Spring Boot)"
+---
+
 <span class="advanced">Avanzado</span>
 
 ***

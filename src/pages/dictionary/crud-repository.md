@@ -43,7 +43,6 @@ Es la interfaz más completa y la más utilizada en proyectos web modernos. Here
 * **Cuándo usarla:** Es la **opción por defecto** en la mayoría de los casos. Úsala si necesitas métodos que devuelvan listas directamente o si necesitas manipular el contexto de persistencia (como vaciar el caché con `flush`).
 
 ---
-
 ## Tabla Comparativa de Jerarquía
 
 | Interfaz | Herencia | Funcionalidad Principal |
@@ -57,7 +56,6 @@ Es la interfaz más completa y la más utilizada en proyectos web modernos. Here
 | **`JpaRepository`** | `PagingAndSortingRepository` | CRUD + Paginación + Operaciones de JPA (Batch, Flush). |
 
 ---
-
 ### ¿Cómo saber cuál elegir?
 
 1. **¿Necesitas paginación o listas grandes?** Usa `JpaRepository`. Al heredar de `PagingAndSortingRepository`, ya tienes todo cubierto.

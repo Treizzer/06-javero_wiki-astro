@@ -1,3 +1,8 @@
+---
+layout: ../../layouts/DictionaryLayout.astro
+title: "Arreglos (arrays) unidimensionales y multidimensionales"
+---
+
 <span class="beginner">Principiante</span>
 
 ***

@@ -304,6 +304,12 @@
   },
 
   {
+    "title": "¿Cuáles son los 4 pilares de Java?",
+    "url": "/dictionary/4-pilares-java",
+    "level": "Intermedio"
+  },
+
+  {
     "title": "¿Qué es la abstracción?",
     "url": "/dictionary/abstraccion",
     "level": "Intermedio"
@@ -493,7 +499,7 @@
   },
 
   {
-    "title": "¿Cómo hacer Leectura y Escritura de Archivos?",
+    "title": "¿Cómo hacer lectura y escritura de Archivos?",
     "url": "/dictionary/archivos",
     "level": "Intermedio"
   },
@@ -607,7 +613,7 @@
     "level": "Avanzado"
   },
   {
-    "title": "¿Qué es Atómico (Atomic - Threads) en Java?",
+    "title": "¿Qué es atómico (Atomic - Threads) en Java?",
     "url": "/dictionary/atomic",
     "level": "Avanzado"
   },
@@ -709,7 +715,7 @@
   },
 
   {
-    "title": "0. Introducción cosas que necesitas para Spring Boot",
+    "title": "0. Introducción, cosas que necesitas para Spring Boot",
     "url": "/dictionary/0-necesitas",
     "level": "Avanzado"
   },
