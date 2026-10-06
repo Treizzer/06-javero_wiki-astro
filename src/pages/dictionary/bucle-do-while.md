@@ -31,7 +31,7 @@ do {
 
 El `do-while` es útil cuando necesitas garantizar que una acción se realice al menos una vez, como por ejemplo, pedirle al usuario que ingrese un valor hasta que sea válido.
 
-### Ejemplo en Java ☕
+### Ejemplo en Java
 
 ```java
 int numero = 5;
