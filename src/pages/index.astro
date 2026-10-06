@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+
+// const fetchEntries = async () => {
+//   const res = await fetch("/entries.json");
+//   const results = await res.json();
+//   return results;
+// };
+// const entries = await fetchEntries();
+---
+
+<Layout title="Javero Wiki - Mi Diccionario de Java y Spring">
+  <h3>Principales preguntas</h3>
+  <ul class="list-f-q">
+    <li>
+      <!-- <a accesskey="/dictionary/que-es-java" class="opt">¿Qué es Java?</a> -->
+      <a href="/dictionary/que-es-java" class="opt">¿Qué es Java?</a>
+    </li>
+    <li>
+      <!-- <a accesskey="/dictionary/que-es-una-clase" class="opt"> -->
+      <a href="/dictionary/que-es-una-clase" class="opt">
+        ¿Qué es una clase en Java?
+      </a>
+    </li>
+    <li>
+      <!-- <a accesskey="/dictionary/que-es-spring-boot" class="opt"> -->
+      <a href="/dictionary/que-es-spring-boot" class="opt">
+        ¿Qué es Spring Boot?
+      </a>
+    </li>
+  </ul>
+</Layout>
